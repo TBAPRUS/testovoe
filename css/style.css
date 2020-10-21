@@ -1,0 +1,58 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+  font-family: "Roboto", sans-serif;
+  font-size: 36px;
+}
+
+body {
+  background: linear-gradient(242.65deg, #545665 6.09%, #2f3648 85.4%) center center fixed no-repeat;
+  background-size: 100%;
+}
+
+#text {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin: 40px 0;
+  color: #d658f5;
+}
+#text .letter {
+  margin: 10px 0;
+  -webkit-animation: fadein 3s;
+  -moz-animation: fadein 3s;
+  -ms-animation: fadein 3s;
+  -o-animation: fadein 3s;
+  animation: fadein 3s;
+}
+@keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+#text .underscore {
+  margin: 10px 0;
+  -webkit-animation: fadeinfinite 1s infinite;
+  -moz-animation: fadeinfinite 1s infinite;
+  -ms-animation: fadeinfinite 1s infinite;
+  -o-animation: fadeinfinite 1s infinite;
+  animation: fadeinfinite 1s infinite;
+}
+@keyframes fadeinfinite {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
